@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ljcq+V/Azo+VLCQb+uVdB4iTntZSVYTpwJjOCzXAOF7X9Ep91K7uAjSt/vqvDWZHoJ+wdzssmbHr14uMpGxJrQ==",
+  "success": true,
+  "projectFilePath": "E:\\NETProject\\ConCuCuteBlog\\src\\ConCuCuteBlog.Website\\ConCuCuteBlog.Website.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\giaba\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}
