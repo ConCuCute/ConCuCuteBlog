@@ -14,7 +14,4 @@ namespace ConCuCuteBlog.Database.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
         }
     }
-    {
-
-    }
 }

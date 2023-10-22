@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Commands\Request\**" />
+    <EmbeddedResource Remove="Commands\Request\**" />
+    <None Remove="Commands\Request\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Handler\Video\" />
+    <Folder Include="Commands\Handler\User\" />
+    <Folder Include="Commands\Handler\Tag\" />
+    <Folder Include="Events\Data\" />
+    <Folder Include="Events\Handler\" />
+  </ItemGroup>
+
 </Project>

@@ -17,10 +17,7 @@ namespace ConCuCuteBlog.Database
         {
             
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer();
         public virtual DbSet<Author> Authors => Set<Author>();
         public virtual DbSet<Category> Categoryies => Set<Category>();
         public virtual DbSet<Comment> Comments => Set<Comment>();

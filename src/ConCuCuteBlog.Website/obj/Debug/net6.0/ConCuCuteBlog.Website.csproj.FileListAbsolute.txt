@@ -6,7 +6,6 @@ E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\bin\Debug\net6.0\ConCuCute
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\bin\Debug\net6.0\ConCuCuteBlog.Website.runtimeconfig.json
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\bin\Debug\net6.0\ConCuCuteBlog.Website.dll
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\bin\Debug\net6.0\ConCuCuteBlog.Website.pdb
-E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\obj\Debug\net6.0\ConCuCuteBlog.Website.csproj.AssemblyReference.cache
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\obj\Debug\net6.0\ConCuCuteBlog.Website.GeneratedMSBuildEditorConfig.editorconfig
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\obj\Debug\net6.0\ConCuCuteBlog.Website.AssemblyInfoInputs.cache
 E:\NETProject\ConCuCuteBlog\src\ConCuCuteBlog.Website\obj\Debug\net6.0\ConCuCuteBlog.Website.AssemblyInfo.cs
