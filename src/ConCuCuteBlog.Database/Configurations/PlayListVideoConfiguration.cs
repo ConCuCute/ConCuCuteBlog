@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConCuCuteBlog.Database.Configurations
 {
-    public class PostTypeConfiguration : IEntityTypeConfiguration<PostType>
+    public class PlayListVideoConfiguration : IEntityTypeConfiguration<PlayListVideo>
     {
-        public void Configure(EntityTypeBuilder<PostType> builder)
+        public void Configure(EntityTypeBuilder<PlayListVideo> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();

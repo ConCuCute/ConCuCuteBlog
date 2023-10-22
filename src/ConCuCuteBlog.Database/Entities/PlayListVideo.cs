@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConCuCuteBlog.Database.Entities
 {
-    public class PostTag : BaseEntity
+    public class PlayListVideo : BaseEntity
     {
-        public int Id { get; set; }
-        public int? TagId { get; set; }
-        public int? PostId { get; set; }  
-
+        public int Id { get; set; } 
+        public int? PlayListId { get; set; }
+        public int? VideoId { get; set; }
     }
 }

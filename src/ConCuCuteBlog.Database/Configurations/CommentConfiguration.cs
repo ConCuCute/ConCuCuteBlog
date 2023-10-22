@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConCuCuteBlog.Database.Configurations
 {
-    public class PostTypeConfiguration : IEntityTypeConfiguration<PostType>
+    public class CommentConfiguration : IEntityTypeConfiguration<Comment>
     {
-        public void Configure(EntityTypeBuilder<PostType> builder)
+        public void Configure(EntityTypeBuilder<Comment> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();

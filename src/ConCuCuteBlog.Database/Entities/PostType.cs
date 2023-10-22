@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConCuCuteBlog.Database.Entities
 {
-    public class User : IdentityUser
+    public class PostType : BaseEntity
     {
-        public string? AuthorId { get; set; }
+        public int Id { get; set; }
+        public string? Name { get; set; } = string.Empty;
     }
 }

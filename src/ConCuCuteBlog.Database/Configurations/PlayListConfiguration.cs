@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConCuCuteBlog.Database.Configurations
 {
-    public class PlayListConfiguration
+    public class PlayListConfiguration : IEntityTypeConfiguration<PlayList>
     {
+        public void Configure(EntityTypeBuilder<PlayList> builder)
+        {
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).UseIdentityColumn();
+        }
+    }
+    {
+
     }
 }
